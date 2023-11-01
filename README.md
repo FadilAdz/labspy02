@@ -164,4 +164,4 @@ Penjelasan
 - `if` jika c lebih besar dari a/max, maka max = c
 
 #### Hasil program
-![6](Gambar/Gambar08.png)
+![6](ggg.png)
