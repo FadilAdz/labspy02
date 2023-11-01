@@ -8,6 +8,8 @@
 | **Kelas** | TI.23.A.6 |
 | **Mata Kuliah** | Bahasa Pemrograman |
 
+
+
 ## Tugas struktur kondisi 
 ### Latihan 1
 
@@ -32,7 +34,6 @@ if (bil1 < bil2):
 ```
 #### Hasil program
 ![1](bbb.png)
-
 
 
 ### Latihan 2
@@ -103,5 +104,64 @@ for bar in range(baris):
   print("{0:>5}".format(tab), end='')
 print()    
 ```
-#### Hasil prgram
+#### Hasil program
  ![3](ddd.png)
+
+
+### Latihan 2
+
+*Tampilkan n bilangan acak yang lebih kecil dari 0.5.* 
+*nilai n diisi pada saat runtime*
+*anda bisa menggunakan kombinasi while dan for untuk
+ menyelesaikannya.*
+
+```Python
+import random
+print("===========================================")
+print("= Bilangan acak yang lebih kecil dari 0,5 =")
+print("===========================================")
+
+jum = int( input("Masukan nilai: "))
+i = 0
+while i in range(jum):
+    i += 1
+    angkarandom = random.uniform(0,0.5)
+    print("Bilangan ke :", i, " : ", angkarandom)
+```
+
+#### Hasil program
+![4](eee.png)
+
+
+
+## Tugas Modul praktikum 2
+### Latihan 
+
+*Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan
+ tersebut tampilkan bilangan terbesarnya. Gunakan statement if.*
+ 
+ ```Python
+ 
+a = int(input("Masukan bilangan ke-1 :"))
+b = int(input("Masukan bilangan ke-2 :"))
+c = int(input("Masukan bilangan ke-3 :"))
+
+max = a
+
+if b > max:
+    max = b
+
+if c > max:
+    max = c
+
+print()
+print("Nilai terbesar :", max)
+```
+Penjelasan
+- a,b,c sebagai inputan 
+- `max = a` Dekralasi variable
+- `if` jika b lebih besar dari a/max, maka max = a
+- `if` jika c lebih besar dari a/max, maka max = c
+
+#### Hasil program
+![6](Gambar/Gambar08.png)
