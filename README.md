@@ -164,4 +164,7 @@ Penjelasan
 - `if` jika c lebih besar dari a/max, maka max = c
 
 #### Hasil program
-![6](ggg.png)
+![5](ggg.png)
+
+#### Hasil dari flowchart
+![6](aaa.png)
